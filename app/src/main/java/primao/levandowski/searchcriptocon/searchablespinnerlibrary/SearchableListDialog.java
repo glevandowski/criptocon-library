@@ -93,13 +93,13 @@ public class SearchableListDialog extends DialogFragment implements
         alertDialog.setTitle(strTitle);
         final AlertDialog dialog = alertDialog.create();
         dialog.getWindow().setSoftInputMode(WindowManager.LayoutParams.SOFT_INPUT_STATE_HIDDEN);
-        final ProgressBar progress = rootView.findViewById(R.id.progressAlert);
+       /* final ProgressBar progress = rootView.findViewById(R.id.progressAlert);
 
         if(!_searchableItem.equals(null)) {
             progress.setVisibility(View.GONE);
         }else {
            progress.setVisibility(View.VISIBLE);
-        }
+        }*/
         return dialog;
     }//fecha o oncreate
 
